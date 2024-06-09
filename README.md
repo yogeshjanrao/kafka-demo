@@ -71,16 +71,15 @@ This repository demonstrates Kafka message broker functionality using Node.js. I
    ```bash
    node producer.js 
 
-    While running producer.js, you need to provide input for rider name and location. For example:
-        Rider Name: yogesh
-        Location: pune
-    Enter the above information in the terminal as yogesh pune to create a message for the consumer.
+While running producer.js, you need to provide input for rider name and location. For example:
+   Rider Name: yogesh
+   Location: pune
+Enter the above information in the terminal as yogesh pune to create a message for the consumer.
 
 5. **Run [`consumer.js`](https://github.com/yogeshjanrao/kafka-demo/blob/master/consumer.js) to consume topic messages on consumer group**
    ```bash
    node consumer.js <consumer-groupId>
 
-    While running consumer.js, you need to provide input for consumer group. For example:
-        user-1 is consumer group 
+While running consumer.js, you need to provide input for consumer group. For example: user-1 is consumer group 
 
 This `README.md` includes the detailed instructions and necessary steps for setting up and running the Kafka demo application.
